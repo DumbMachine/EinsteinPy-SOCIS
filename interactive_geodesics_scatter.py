@@ -212,6 +212,6 @@ class InteractiveScatterGeodesicPlotter:
     def show(self):
         iplot(self.fig, filename='InteractiveScatterGeodesicPlotter')
 
-
+# TODO: WIP
     def save(self, name="interactive_scatter_geodesic.jpeg"):
         pio.write_image(self.fig, name)
